@@ -8,26 +8,20 @@ This is an interactive application where students can select an area on the map 
 
 ## Built with
 
-* 🌒 **React**
-* 🌓 **Google Map**
-* 🌔 **Firebase**
-* 🌕 **Node.js**
-* 🌜  **Heroku**
+- 🌒 **React**
+- 🌓 **Google Map**
+- 🌔 **Firebase**
+- 🌕 **Node.js**
+- 🌜 **Heroku**
 
 ## Challenges we ran into
 
-* How to use Heroku to deploy the application
-* How to connect to Firebase
-* How to design the user interface 
+- How to use Heroku to deploy the application
+- How to connect to Firebase
+- How to design the user interface
 
 ## Accomplishments that we're proud of
 
-* 😜 Implement the Firebase storage and cloud database to manage our donation information
-* 😝 Create an IBM chatbot to introduce latest information base on New York city
-* 😆 Brainstorming to improve the idea
-
-
-
-
-
-
+- 😜 Implement the Firebase storage and cloud database to manage our donation information
+- 😝 Create an IBM chatbot to introduce latest information base on New York city
+- 😆 Brainstorming to improve the idea
