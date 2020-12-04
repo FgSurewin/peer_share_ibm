@@ -1,0 +1,31 @@
+@import "../../../styles/media";
+@import "../../../styles/basic";
+#register {
+	padding-left: 100px;
+	padding-top: 30px;
+	.back-container {
+		margin-bottom: 20px;
+		.back {
+			background: linear-gradient(
+				269.8deg,
+				$color-primary -20.66%,
+				$color-secondary 113.09%
+			);
+			border-radius: 5px;
+			font-size: 16px;
+			color: #fff;
+			padding: 12px;
+			font-weight: $font-normal;
+			cursor: pointer;
+		}
+	}
+	.main {
+		display: flex;
+		.form-content {
+			width: 350px;
+		}
+		.picture-content {
+			margin-left: 200px;
+		}
+	}
+}

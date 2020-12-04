@@ -1,0 +1,35 @@
+@import "./media"; // Color
+$color-primary: #e6b486;
+$color-secondary: #e62525;
+$color-font: #3f3d56;
+$color-selected: #da3f35;
+
+// Font
+$font-style: "Montserrat", sans-serif;
+$font-bold: 700;
+$font-normal: 500;
+
+// Sidebar
+$sidebar-width-regular: 250px;
+$sidebar-width-small: 200px;
+
+$sidebar-min-height: 694px;
+
+$navItem-height-small: 63px;
+$navItem-height-regular: 93px;
+
+$title-width-regular: 266px;
+$title-width-small: 180px;
+
+$title-height-regular: 103px;
+$title-height-small: 63px;
+
+$title-left-regular: 114px;
+$title-left-small: 110px;
+
+$title-top-regular: 80px;
+$title-top-small: 60px;
+
+// Main
+$main-min-width-regular: 1340px - $sidebar-width-regular;
+$main-min-width-small: 1340px - $sidebar-width-small;

@@ -1,0 +1,26 @@
+// Breakpoints
+$mq-small: 1400px;
+// $mq-small: 960px;
+// $mq-regular: 1400px;
+$mq-regular: 2100px;
+$mq-large: 3400px;
+
+@mixin mq($size, $direction: max-width, $media-type: only all) {
+	@if $size == small {
+		@media #{$media-type} and (#{$direction}: $mq-small) {
+			@content;
+		}
+	} @else if $size == regular {
+		@media #{$media-type} and (#{$direction}: $mq-regular) {
+			@content;
+		}
+	} @else if $size == large {
+		@media #{$media-type} and (#{$direction}: $mq-large) {
+			@content;
+		}
+	} @else {
+		@media #{$media-type} and (#{$direction}: $size) {
+			@content;
+		}
+	}
+}

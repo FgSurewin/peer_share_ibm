@@ -1,0 +1,111 @@
+@import "../../../styles/media";
+@import "../../../styles/basic";
+
+#sidebar {
+	background: linear-gradient(
+		181.66deg,
+		$color-primary 0.67%,
+		$color-secondary 104.61%
+	);
+	@include mq(regular) {
+		width: $sidebar-width-regular;
+	}
+	@include mq(small) {
+		width: $sidebar-width-small;
+	}
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 10;
+	a {
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		font-weight: $font-bold;
+		color: #fff;
+		@include mq(regular) {
+			font-size: 36px;
+			line-height: $navItem-height-regular;
+			height: $navItem-height-regular;
+		}
+		@include mq(small) {
+			font-size: 28px;
+			line-height: $navItem-height-small;
+			height: $navItem-height-small;
+		}
+	}
+	.selected {
+		background: $color-selected;
+		border-radius: 10px;
+		width: 100%;
+		@include mq(regular) {
+			height: $navItem-height-regular;
+		}
+		@include mq(small) {
+			height: $navItem-height-small;
+		}
+	}
+	.title {
+		position: absolute;
+		border: 5px solid $color-primary;
+		box-sizing: border-box;
+		border-radius: 50px;
+		z-index: 10;
+		@include mq(regular) {
+			width: $title-width-regular;
+			height: $title-height-regular;
+			left: $title-left-regular;
+			top: $title-top-regular;
+		}
+		@include mq(small) {
+			width: $title-width-small;
+			height: $title-height-small;
+			left: $title-left-small;
+			top: $title-top-small;
+		}
+		.title-left {
+			position: absolute;
+			font-weight: $font-bold;
+			color: #fff;
+			z-index: 10;
+			@include mq(regular) {
+				width: 87px;
+				height: 44px;
+				left: 29px;
+				top: 24px;
+				font-size: 36px;
+			}
+			@include mq(small) {
+				width: 87px;
+				height: 44px;
+				left: 18px;
+				top: 8px;
+				font-size: 24px;
+			}
+		}
+		.title-right {
+			position: absolute;
+			font-weight: $font-bold;
+			color: $color-font;
+			z-index: 10;
+			@include mq(regular) {
+				width: 108px;
+				height: 44px;
+				left: 139px;
+				top: 24px;
+				font-size: 36px;
+			}
+			@include mq(small) {
+				width: 108px;
+				height: 44px;
+				left: 95px;
+				top: 8px;
+				font-size: 24px;
+			}
+		}
+	}
+	.navbar {
+		width: 100%;
+	}
+}

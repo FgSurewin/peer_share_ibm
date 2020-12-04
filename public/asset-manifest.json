@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6a465f6f.chunk.css",
+    "main.js": "/static/js/main.811875e0.chunk.js",
+    "main.js.map": "/static/js/main.811875e0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dd450042.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dd450042.js.map",
+    "static/css/2.6f338a1f.chunk.css": "/static/css/2.6f338a1f.chunk.css",
+    "static/js/2.400d243d.chunk.js": "/static/js/2.400d243d.chunk.js",
+    "static/js/2.400d243d.chunk.js.map": "/static/js/2.400d243d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.6f338a1f.chunk.css.map": "/static/css/2.6f338a1f.chunk.css.map",
+    "static/css/main.6a465f6f.chunk.css.map": "/static/css/main.6a465f6f.chunk.css.map",
+    "static/js/2.400d243d.chunk.js.LICENSE.txt": "/static/js/2.400d243d.chunk.js.LICENSE.txt",
+    "static/media/Combine.9a3ed48c.svg": "/static/media/Combine.9a3ed48c.svg",
+    "static/media/bigWave.f28c2f1f.svg": "/static/media/bigWave.f28c2f1f.svg",
+    "static/media/dumpling.f26c64e1.svg": "/static/media/dumpling.f26c64e1.svg",
+    "static/media/mapStyles.16b2a28e.bin": "/static/media/mapStyles.16b2a28e.bin",
+    "static/media/smallWave.701a4848.svg": "/static/media/smallWave.701a4848.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd450042.js",
+    "static/css/2.6f338a1f.chunk.css",
+    "static/js/2.400d243d.chunk.js",
+    "static/css/main.6a465f6f.chunk.css",
+    "static/js/main.811875e0.chunk.js"
+  ]
+}

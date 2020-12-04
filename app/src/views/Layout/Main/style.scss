@@ -1,0 +1,14 @@
+@import "../../../styles/basic";
+
+#main {
+	position: relative;
+	min-width: $main-min-width-regular;
+	height: 100vh;
+	// overflow: hidden;
+	@include mq(regular) {
+		margin-left: $sidebar-width-regular;
+	}
+	@include mq(small) {
+		margin-left: $sidebar-width-small;
+	}
+}
